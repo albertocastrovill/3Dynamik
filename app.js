@@ -15,6 +15,15 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
+app.get('/products', (req, res) => {
+    res.render('products');
+});
+
+app.get('/contact', (req, res) => {
+    res.render('contact');
+});
+
+
 // Productos, autenticación y otras rutas aquí
 
 app.listen(port, () => {
